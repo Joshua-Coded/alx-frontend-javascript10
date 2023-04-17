@@ -9,7 +9,7 @@ export function getLast() {
 }
 
 export function taskNext() {
-    const combination = "But sometimes let";
+    let combination = "But sometimes let";
     combination = combination + getLast();
     return combination;
 }
